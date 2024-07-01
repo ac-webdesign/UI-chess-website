@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const topBtn = document.getElementById('top-btn');
 
     learnBtn.addEventListener('click', () => {
+        const scrollDistance = window.innerWidth < 480 ? 560 : 780;
+
         window.scrollBy({
-            top: 780, 
+            top: scrollDistance, 
             behavior: 'smooth'
         });
     });
