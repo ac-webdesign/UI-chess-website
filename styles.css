@@ -9,8 +9,9 @@ body{
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to right, #EEEEEE,#F5F5F5);
-
+    scroll-behavior: smooth; 
 }
+
 .logo{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.8rem;
